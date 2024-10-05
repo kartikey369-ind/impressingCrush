@@ -71,3 +71,47 @@ p {
   
   // filter: drop-shadow(2px 1.5px 1px rgba(0,0,105,0.9));
 }
+
+.social-media {
+  position: fixed; /* Fixes the position relative to the viewport */
+  bottom: 20px; /* 20px from the bottom */
+  right: 20px; /* 20px from the right */
+  background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+  padding: 15px; /* Adds padding */
+  border-radius: 10px; /* Rounds the corners */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Adds a softer shadow */
+  backdrop-filter: blur(10px); /* Blurs the background */
+  transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.social-media h3 {
+  margin: 0; /* Removes default margin */
+  font-size: 18px; /* Adjusts font size */
+  color: #333; /* Darker text for better readability */
+  font-family: 'Homemade Apple', cursive; /* Use a custom font */
+}
+
+.social-media ul {
+  list-style-type: none; /* Removes bullet points */
+  padding: 0; /* Removes default padding */
+  margin: 0; /* Removes default margin */
+}
+
+.social-media li {
+  margin: 8px 0; /* Adds vertical spacing between links */
+}
+
+.social-media a {
+  text-decoration: none; /* Removes underline from links */
+  color: #2ecc71; /* Sets the link color */
+  font-weight: bold; /* Makes links bold */
+  padding: 5px 10px; /* Adds padding around links */
+  border-radius: 5px; /* Rounds the corners of links */
+  transition: background-color 0.3s, color 0.3s; /* Transition effect for background color and text color */
+}
+
+/* Hover effects for links */
+.social-media a:hover {
+  background-color: #2ecc71; /* Background color on hover */
+  color: white; /* Text color on hover */
+}
